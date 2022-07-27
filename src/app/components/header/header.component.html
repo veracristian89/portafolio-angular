@@ -1,13 +1,35 @@
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">{{titulo}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse show" id="navbarDark">
+      <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="card m-3 rounded-4">
   
-  <div class="contenedor-imagen rounded-4 mb-5">
+  <div class="contenedor-imagen rounded-4 mb-4">
     <img src="assets/img/space.jpg" class="card-img-top portada" alt="card-img-top">
   </div>
   
   <img class="imagen-perfil" src="assets/img/foto.jpg" alt="foto perfil">
   
   <div class="card-body mt-5">
-    <h5 class="card-title h2">Cristian Vera</h5>
+    <h5 class="card-title h2">{{titulo}}</h5>
     <p class="card-text m-0">Estudiante de informatica</p>
     <p class="card-text">Córdoba (Argentina)</p>
     <button class="btn btn-primary">Tengo interés en</button>
