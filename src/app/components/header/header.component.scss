@@ -4,9 +4,16 @@
     vertical-align: center;
 }
 .imagen-perfil{
+    border-radius: 50%;
+    height: 12rem;
     margin: 17rem 0 0 1rem;
     position: absolute;
-    height: 12rem;
     width: 12rem;
-    border-radius: 50%;
+}
+
+.fapen-header{
+    border-bottom: 1px solid blue;
+    margin: 25rem 0 0 14rem;
+    position: absolute;
+    width: 1rem;
 }

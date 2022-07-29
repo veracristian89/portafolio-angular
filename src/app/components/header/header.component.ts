@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faPen } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-header',
@@ -7,8 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   titulo : string = "Cristian Vera"
+  faPen = faPen;
+  
   constructor() { }
-
   ngOnInit(): void {
   }
 
