@@ -8,7 +8,7 @@ import { faPen } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  titulo : string = "Cristian Vera"
+  titulo : string = "Cristian Vera";
   faPen = faPen;
   
   constructor() { }

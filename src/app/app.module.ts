@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaEducacionComponent } from './components/experiencia-educacion/experiencia-educacion.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { SkillComponent } from './components/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     NavbarComponent,
     AcercaDeComponent,
-    ExperienciaEducacionComponent
+    ExperienciaEducacionComponent,
+    SkillComponent
   ],
   imports: [
     BrowserModule,
