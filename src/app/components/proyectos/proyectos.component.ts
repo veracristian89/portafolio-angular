@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faPlus, faPen, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-proyectos',
@@ -7,6 +7,8 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./proyectos.component.scss']
 })
 export class ProyectosComponent implements OnInit {
+  faTrash = faTrash;
+  faPen = faPen;
   faPlus = faPlus;
   titulo : string = "Proyectos";
   constructor() { }
