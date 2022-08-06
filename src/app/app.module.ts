@@ -9,6 +9,7 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { ExperienciaEducacionComponent } from './components/experiencia-educacion/experiencia-educacion.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillComponent } from './components/skill/skill.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SkillComponent } from './components/skill/skill.component';
     NavbarComponent,
     AcercaDeComponent,
     ExperienciaEducacionComponent,
-    SkillComponent
+    SkillComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
